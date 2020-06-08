@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "收集一些写好的插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaoCheng-cjs/utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaoCheng-cjs/utils/issues"
+  },
+  "homepage": "https://github.com/LaoCheng-cjs/utils#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
