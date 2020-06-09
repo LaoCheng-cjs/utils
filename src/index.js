@@ -306,3 +306,18 @@ export const changeToChinese = (Num) => {
     }
     return newchar;
 }
+
+
+
+
+/**
+ * 去除所有html页面标签
+ * @param {string}
+ * @returns {html}
+ * 例子： removeHtmltag('<div>我是html内的标签：</div><p>保护环境</p>') 
+ *        返回："我是html内的标签：保护环境"
+*/
+export const removeHtmltag = (str) => {
+    return str.replace(/<[^>]+>/g, '')
+}
+
